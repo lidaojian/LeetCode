@@ -44,6 +44,11 @@ int main(int argc, const char * argv[]) {
     printf("========= Roman to Integer ==========\n");
     printf("%d\n", romanToInt("MCDLVI"));
     
+    //  Longest Common Prefix
+    printf("========= Longest Common Prefix ==========\n");
+    char *longestCommonPrefix_strs[2] = {"ca","a"};
+    printf("%s\n", longestCommonPrefix(longestCommonPrefix_strs, 2));
+    
     return 0;
 }
 
