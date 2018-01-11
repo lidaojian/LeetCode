@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FB8268AF1FFBC5E300DB80CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FB8268AE1FFBC5E300DB80CC /* main.c */; };
+		FBF5EA8820067CCB008FDE2D /* twoSum.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA8720067CCB008FDE2D /* twoSum.c */; };
+		FBF5EA8B200725FA008FDE2D /* addTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA8A200725FA008FDE2D /* addTwoNumbers.c */; };
+		FBF5EA8E2007271D008FDE2D /* reverseInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA8D2007271D008FDE2D /* reverseInteger.c */; };
+		FBF5EA9120072771008FDE2D /* integerToRoman.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA9020072771008FDE2D /* integerToRoman.c */; };
+		FBF5EA9420072852008FDE2D /* romanToInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA9320072852008FDE2D /* romanToInteger.c */; };
+		FBF5EA97200729DA008FDE2D /* longestCommonPrefix.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA96200729DA008FDE2D /* longestCommonPrefix.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		FB8268AB1FFBC5E300DB80CC /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8268AE1FFBC5E300DB80CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FBF5EA8620067CCB008FDE2D /* twoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoSum.h; sourceTree = "<group>"; };
+		FBF5EA8720067CCB008FDE2D /* twoSum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = twoSum.c; sourceTree = "<group>"; };
+		FBF5EA89200725FA008FDE2D /* addTwoNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addTwoNumbers.h; sourceTree = "<group>"; };
+		FBF5EA8A200725FA008FDE2D /* addTwoNumbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = addTwoNumbers.c; sourceTree = "<group>"; };
+		FBF5EA8C2007271D008FDE2D /* reverseInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reverseInteger.h; sourceTree = "<group>"; };
+		FBF5EA8D2007271D008FDE2D /* reverseInteger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverseInteger.c; sourceTree = "<group>"; };
+		FBF5EA8F20072771008FDE2D /* integerToRoman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = integerToRoman.h; sourceTree = "<group>"; };
+		FBF5EA9020072771008FDE2D /* integerToRoman.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = integerToRoman.c; sourceTree = "<group>"; };
+		FBF5EA9220072852008FDE2D /* romanToInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = romanToInteger.h; sourceTree = "<group>"; };
+		FBF5EA9320072852008FDE2D /* romanToInteger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = romanToInteger.c; sourceTree = "<group>"; };
+		FBF5EA95200729DA008FDE2D /* longestCommonPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = longestCommonPrefix.h; sourceTree = "<group>"; };
+		FBF5EA96200729DA008FDE2D /* longestCommonPrefix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = longestCommonPrefix.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				FB8268AE1FFBC5E300DB80CC /* main.c */,
+				FBF5EA8620067CCB008FDE2D /* twoSum.h */,
+				FBF5EA8720067CCB008FDE2D /* twoSum.c */,
+				FBF5EA89200725FA008FDE2D /* addTwoNumbers.h */,
+				FBF5EA8A200725FA008FDE2D /* addTwoNumbers.c */,
+				FBF5EA8C2007271D008FDE2D /* reverseInteger.h */,
+				FBF5EA8D2007271D008FDE2D /* reverseInteger.c */,
+				FBF5EA8F20072771008FDE2D /* integerToRoman.h */,
+				FBF5EA9020072771008FDE2D /* integerToRoman.c */,
+				FBF5EA9220072852008FDE2D /* romanToInteger.h */,
+				FBF5EA9320072852008FDE2D /* romanToInteger.c */,
+				FBF5EA95200729DA008FDE2D /* longestCommonPrefix.h */,
+				FBF5EA96200729DA008FDE2D /* longestCommonPrefix.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -119,7 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF5EA8B200725FA008FDE2D /* addTwoNumbers.c in Sources */,
+				FBF5EA8820067CCB008FDE2D /* twoSum.c in Sources */,
 				FB8268AF1FFBC5E300DB80CC /* main.c in Sources */,
+				FBF5EA97200729DA008FDE2D /* longestCommonPrefix.c in Sources */,
+				FBF5EA8E2007271D008FDE2D /* reverseInteger.c in Sources */,
+				FBF5EA9120072771008FDE2D /* integerToRoman.c in Sources */,
+				FBF5EA9420072852008FDE2D /* romanToInteger.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
