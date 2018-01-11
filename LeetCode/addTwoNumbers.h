@@ -10,6 +10,7 @@
 #define addTwoNumbers_h
 
 #include <stdio.h>
+#include "leetCodeCommon.h"
 
 struct ListNode *tailCreatList(int a[], int n);
 void printList(struct ListNode *p);

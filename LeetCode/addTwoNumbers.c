@@ -23,12 +23,6 @@
  
  */
 
-struct ListNode {
-    int val;
-    struct ListNode *next;
-};
-
-
 struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
     if (l1 == NULL) {
         return l2;
@@ -109,28 +103,3 @@ struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
 }
 */
 
-struct ListNode *tailCreatList(int a[], int n) {
-    struct ListNode *head = NULL, *tail = NULL, *p = NULL;
-    for (int i = 0; i < n; i ++) {
-        p = (struct ListNode *)malloc(sizeof(struct ListNode));
-        p->val = a[i];
-        p->next = NULL;
-        if (head == NULL) {
-            head = p;
-            tail = head;
-        } else {
-            tail->next = p;
-            tail = p;
-        }
-    }
-    
-    return head;
-}
-
-void printList(struct ListNode *p) {
-    while (p) {
-        printf("%d ", p->val);
-        p = p->next;
-    }
-    printf("\n");
-}

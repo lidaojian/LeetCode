@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FB7B598B2007820C001DA9E4 /* validParentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B598A2007820C001DA9E4 /* validParentheses.c */; };
+		FB7B598E200788E6001DA9E4 /* mergeTwoSortedLists.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B598D200788E6001DA9E4 /* mergeTwoSortedLists.c */; };
+		FB7B5991200789BD001DA9E4 /* leetCodeCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B5990200789BD001DA9E4 /* leetCodeCommon.c */; };
 		FB8268AF1FFBC5E300DB80CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FB8268AE1FFBC5E300DB80CC /* main.c */; };
 		FBF5EA8820067CCB008FDE2D /* twoSum.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA8720067CCB008FDE2D /* twoSum.c */; };
 		FBF5EA8B200725FA008FDE2D /* addTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA8A200725FA008FDE2D /* addTwoNumbers.c */; };
@@ -32,6 +34,10 @@
 /* Begin PBXFileReference section */
 		FB7B59892007820C001DA9E4 /* validParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = validParentheses.h; sourceTree = "<group>"; };
 		FB7B598A2007820C001DA9E4 /* validParentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = validParentheses.c; sourceTree = "<group>"; };
+		FB7B598C200788E6001DA9E4 /* mergeTwoSortedLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeTwoSortedLists.h; sourceTree = "<group>"; };
+		FB7B598D200788E6001DA9E4 /* mergeTwoSortedLists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mergeTwoSortedLists.c; sourceTree = "<group>"; };
+		FB7B598F200789BD001DA9E4 /* leetCodeCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetCodeCommon.h; sourceTree = "<group>"; };
+		FB7B5990200789BD001DA9E4 /* leetCodeCommon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = leetCodeCommon.c; sourceTree = "<group>"; };
 		FB8268AB1FFBC5E300DB80CC /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8268AE1FFBC5E300DB80CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		FBF5EA8620067CCB008FDE2D /* twoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoSum.h; sourceTree = "<group>"; };
@@ -79,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				FB8268AE1FFBC5E300DB80CC /* main.c */,
+				FB7B598F200789BD001DA9E4 /* leetCodeCommon.h */,
+				FB7B5990200789BD001DA9E4 /* leetCodeCommon.c */,
 				FBF5EA8620067CCB008FDE2D /* twoSum.h */,
 				FBF5EA8720067CCB008FDE2D /* twoSum.c */,
 				FBF5EA89200725FA008FDE2D /* addTwoNumbers.h */,
@@ -93,6 +101,8 @@
 				FBF5EA96200729DA008FDE2D /* longestCommonPrefix.c */,
 				FB7B59892007820C001DA9E4 /* validParentheses.h */,
 				FB7B598A2007820C001DA9E4 /* validParentheses.c */,
+				FB7B598C200788E6001DA9E4 /* mergeTwoSortedLists.h */,
+				FB7B598D200788E6001DA9E4 /* mergeTwoSortedLists.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -156,8 +166,10 @@
 			files = (
 				FBF5EA8B200725FA008FDE2D /* addTwoNumbers.c in Sources */,
 				FBF5EA8820067CCB008FDE2D /* twoSum.c in Sources */,
+				FB7B598E200788E6001DA9E4 /* mergeTwoSortedLists.c in Sources */,
 				FB8268AF1FFBC5E300DB80CC /* main.c in Sources */,
 				FBF5EA97200729DA008FDE2D /* longestCommonPrefix.c in Sources */,
+				FB7B5991200789BD001DA9E4 /* leetCodeCommon.c in Sources */,
 				FBF5EA8E2007271D008FDE2D /* reverseInteger.c in Sources */,
 				FB7B598B2007820C001DA9E4 /* validParentheses.c in Sources */,
 				FBF5EA9120072771008FDE2D /* integerToRoman.c in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include "leetCodeCommon.h"
 #include "twoSum.h"
 #include "addTwoNumbers.h"
 #include "reverseInteger.h"
@@ -14,6 +15,7 @@
 #include "romanToInteger.h"
 #include "longestCommonPrefix.h"
 #include "validParentheses.h"
+#include "mergeTwoSortedLists.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -54,6 +56,13 @@ int main(int argc, const char * argv[]) {
     printf("========= Valid Parentheses ==========\n");
     printf("%d\n", isValid("{}[]{}{{[]}}"));
     printf("%d\n", isValid("{}[]{}{{[]}"));
+    
+    
+    int mergeTwoSortedLists_number1Array[2] = {1, 2};
+    int mergeTwoSortedListss_number2Array[3] = {1, 3, 4};
+    struct ListNode *mergeTwoSortedLists_number1 = tailCreatList(mergeTwoSortedLists_number1Array, 2);
+    struct ListNode *mergeTwoSortedLists_number2 = tailCreatList(mergeTwoSortedListss_number2Array, 3);
+    printList(mergeTwoLists(mergeTwoSortedLists_number1, mergeTwoSortedLists_number2));
     
     return 0;
 }
