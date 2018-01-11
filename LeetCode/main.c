@@ -13,6 +13,7 @@
 #include "integerToRoman.h"
 #include "romanToInteger.h"
 #include "longestCommonPrefix.h"
+#include "validParentheses.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -48,6 +49,11 @@ int main(int argc, const char * argv[]) {
     printf("========= Longest Common Prefix ==========\n");
     char *longestCommonPrefix_strs[2] = {"ca","a"};
     printf("%s\n", longestCommonPrefix(longestCommonPrefix_strs, 2));
+    
+    //   Valid Parentheses
+    printf("========= Valid Parentheses ==========\n");
+    printf("%d\n", isValid("{}[]{}{{[]}}"));
+    printf("%d\n", isValid("{}[]{}{{[]}"));
     
     return 0;
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB7B598B2007820C001DA9E4 /* validParentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B598A2007820C001DA9E4 /* validParentheses.c */; };
 		FB8268AF1FFBC5E300DB80CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FB8268AE1FFBC5E300DB80CC /* main.c */; };
 		FBF5EA8820067CCB008FDE2D /* twoSum.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA8720067CCB008FDE2D /* twoSum.c */; };
 		FBF5EA8B200725FA008FDE2D /* addTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA8A200725FA008FDE2D /* addTwoNumbers.c */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB7B59892007820C001DA9E4 /* validParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = validParentheses.h; sourceTree = "<group>"; };
+		FB7B598A2007820C001DA9E4 /* validParentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = validParentheses.c; sourceTree = "<group>"; };
 		FB8268AB1FFBC5E300DB80CC /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8268AE1FFBC5E300DB80CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		FBF5EA8620067CCB008FDE2D /* twoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoSum.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				FBF5EA9320072852008FDE2D /* romanToInteger.c */,
 				FBF5EA95200729DA008FDE2D /* longestCommonPrefix.h */,
 				FBF5EA96200729DA008FDE2D /* longestCommonPrefix.c */,
+				FB7B59892007820C001DA9E4 /* validParentheses.h */,
+				FB7B598A2007820C001DA9E4 /* validParentheses.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				FB8268AF1FFBC5E300DB80CC /* main.c in Sources */,
 				FBF5EA97200729DA008FDE2D /* longestCommonPrefix.c in Sources */,
 				FBF5EA8E2007271D008FDE2D /* reverseInteger.c in Sources */,
+				FB7B598B2007820C001DA9E4 /* validParentheses.c in Sources */,
 				FBF5EA9120072771008FDE2D /* integerToRoman.c in Sources */,
 				FBF5EA9420072852008FDE2D /* romanToInteger.c in Sources */,
 			);
