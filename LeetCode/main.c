@@ -16,6 +16,7 @@
 #include "longestCommonPrefix.h"
 #include "validParentheses.h"
 #include "mergeTwoSortedLists.h"
+#include "longestSubstringWithoutRepeatingCharacters.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -57,12 +58,20 @@ int main(int argc, const char * argv[]) {
     printf("%d\n", isValid("{}[]{}{{[]}}"));
     printf("%d\n", isValid("{}[]{}{{[]}"));
     
-    
+    //  Merge Two Sorted Lists
+    printf("========= Merge Two Sorted Lists ==========\n");
     int mergeTwoSortedLists_number1Array[2] = {1, 2};
     int mergeTwoSortedListss_number2Array[3] = {1, 3, 4};
     struct ListNode *mergeTwoSortedLists_number1 = tailCreatList(mergeTwoSortedLists_number1Array, 2);
     struct ListNode *mergeTwoSortedLists_number2 = tailCreatList(mergeTwoSortedListss_number2Array, 3);
     printList(mergeTwoLists(mergeTwoSortedLists_number1, mergeTwoSortedLists_number2));
+    
+    
+    // Longest Substring Without Repeating Characters
+    printf("======Longest Substring Without Repeating Characters===\n");
+    printf("%d\n",lengthOfLongestSubstring("abcabcbb"));
+    printf("%d\n",lengthOfLongestSubstring("bbbbb"));
+    printf("%d\n",lengthOfLongestSubstring("pwwkew"));
     
     return 0;
 }

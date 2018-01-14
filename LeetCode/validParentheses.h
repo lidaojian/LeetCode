@@ -8,9 +8,9 @@
 
 #ifndef validParentheses_h
 #define validParentheses_h
-#include <stdbool.h>
 
 #include <stdio.h>
+#include <stdbool.h>
 
 bool isValid(char* s);
 
