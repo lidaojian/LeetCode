@@ -18,6 +18,7 @@
 #include "mergeTwoSortedLists.h"
 #include "longestSubstringWithoutRepeatingCharacters.h"
 #include "removeDuplicatesfromSortedArray.h"
+#include "implementstrStr.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -83,6 +84,14 @@ int main(int argc, const char * argv[]) {
     printf("======Remove Duplicates from Sorted Array====\n");
     int removeDuplicates_numberArray[5] = {1, 2, 4, 5, 7};
     printf("%d\n",removeDuplicates(removeDuplicates_numberArray, 5));
+    
+    //  Implement strStr().
+    printf("======Implement strStr()====\n");
+    printf("%d\n",strStr("hello", "ll"));
+    printf("%d\n",strStr("aaaaa", "bba"));
+    printf("%d\n",strStr("aaabbaa", "bba"));
+    printf("%d\n",strStr("", ""));
+    printf("%d\n",strStr(NULL, ""));
     
     return 0;
 }
