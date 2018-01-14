@@ -17,6 +17,7 @@
 #include "validParentheses.h"
 #include "mergeTwoSortedLists.h"
 #include "longestSubstringWithoutRepeatingCharacters.h"
+#include "removeDuplicatesfromSortedArray.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -77,7 +78,11 @@ int main(int argc, const char * argv[]) {
     printf("%d\n",lengthOfLongestSubstring_method2(""));
     printf("%d\n",lengthOfLongestSubstring_method2("bbbbb"));
     printf("%d\n",lengthOfLongestSubstring_method2("pwwkew"));
-
+    
+    //  Remove Duplicates from Sorted Array
+    printf("======Remove Duplicates from Sorted Array====\n");
+    int removeDuplicates_numberArray[5] = {1, 2, 4, 5, 7};
+    printf("%d\n",removeDuplicates(removeDuplicates_numberArray, 5));
     
     return 0;
 }
