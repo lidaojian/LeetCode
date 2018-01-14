@@ -12,6 +12,7 @@
 #include <stdio.h>
 
 int lengthOfLongestSubstring(char* s);
+int lengthOfLongestSubstring_method2(char* s);
 
 #endif /* longestSubstringWithoutRepeatingCharacters_h */
 

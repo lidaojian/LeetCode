@@ -73,6 +73,12 @@ int main(int argc, const char * argv[]) {
     printf("%d\n",lengthOfLongestSubstring("bbbbb"));
     printf("%d\n",lengthOfLongestSubstring("pwwkew"));
     
+    
+    printf("%d\n",lengthOfLongestSubstring_method2(""));
+    printf("%d\n",lengthOfLongestSubstring_method2("bbbbb"));
+    printf("%d\n",lengthOfLongestSubstring_method2("pwwkew"));
+
+    
     return 0;
 }
 

@@ -62,3 +62,38 @@ int lengthOfLongestSubstring(char* s) {
     return maxlen;
 }
 
+/**
+ Submission Detail
+ 983 / 983 test cases passed.
+ Status: Accepted
+ Runtime: 24 ms
+ */
+int lengthOfLongestSubstring_method2(char* s) {
+    int maxlen = 0, currentlen = 0;
+    int numChar[128], i, j, start = 0;
+    memset(numChar, 0, sizeof(numChar));
+    for (i = 0; s[i] != '\0'; i ++) {
+        if (++numChar[s[i]] == 2) {
+            if (currentlen > maxlen) {
+                maxlen = currentlen;
+            }
+            for (j = start; j < i; j ++) {
+                if (s[i] == s[j]) {
+                    numChar[s[j]] = 1;
+                    start = j + 1;
+                    break;
+                } else {
+                    currentlen--;
+                    numChar[s[j]] = 0;
+                }
+            }
+        } else {
+            currentlen++;
+        }
+        if (currentlen > maxlen) {
+            maxlen = currentlen;
+        }
+    }
+    return maxlen;
+}
+
