@@ -12,6 +12,7 @@
 		FB7B5991200789BD001DA9E4 /* leetCodeCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B5990200789BD001DA9E4 /* leetCodeCommon.c */; };
 		FB7B599420084977001DA9E4 /* longestSubstringWithoutRepeatingCharacters.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B599320084977001DA9E4 /* longestSubstringWithoutRepeatingCharacters.c */; };
 		FB8268AF1FFBC5E300DB80CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FB8268AE1FFBC5E300DB80CC /* main.c */; };
+		FB83F7E4200C587E0057FF90 /* countAndSay.c in Sources */ = {isa = PBXBuildFile; fileRef = FB83F7E3200C587E0057FF90 /* countAndSay.c */; };
 		FBB9C098200BB6810087C314 /* removeDuplicatesfromSortedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = FBB9C097200BB6810087C314 /* removeDuplicatesfromSortedArray.c */; };
 		FBB9C09B200BBC110087C314 /* implementstrStr.c in Sources */ = {isa = PBXBuildFile; fileRef = FBB9C09A200BBC110087C314 /* implementstrStr.c */; };
 		FBF5EA8820067CCB008FDE2D /* twoSum.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA8720067CCB008FDE2D /* twoSum.c */; };
@@ -45,6 +46,8 @@
 		FB7B599320084977001DA9E4 /* longestSubstringWithoutRepeatingCharacters.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = longestSubstringWithoutRepeatingCharacters.c; sourceTree = "<group>"; };
 		FB8268AB1FFBC5E300DB80CC /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8268AE1FFBC5E300DB80CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FB83F7E2200C587E0057FF90 /* countAndSay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = countAndSay.h; sourceTree = "<group>"; };
+		FB83F7E3200C587E0057FF90 /* countAndSay.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = countAndSay.c; sourceTree = "<group>"; };
 		FBB9C096200BB6810087C314 /* removeDuplicatesfromSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = removeDuplicatesfromSortedArray.h; sourceTree = "<group>"; };
 		FBB9C097200BB6810087C314 /* removeDuplicatesfromSortedArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = removeDuplicatesfromSortedArray.c; sourceTree = "<group>"; };
 		FBB9C099200BBC110087C314 /* implementstrStr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = implementstrStr.h; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				FBB9C097200BB6810087C314 /* removeDuplicatesfromSortedArray.c */,
 				FBB9C099200BBC110087C314 /* implementstrStr.h */,
 				FBB9C09A200BBC110087C314 /* implementstrStr.c */,
+				FB83F7E2200C587E0057FF90 /* countAndSay.h */,
+				FB83F7E3200C587E0057FF90 /* countAndSay.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				FB7B598E200788E6001DA9E4 /* mergeTwoSortedLists.c in Sources */,
 				FB8268AF1FFBC5E300DB80CC /* main.c in Sources */,
 				FBF5EA97200729DA008FDE2D /* longestCommonPrefix.c in Sources */,
+				FB83F7E4200C587E0057FF90 /* countAndSay.c in Sources */,
 				FBB9C09B200BBC110087C314 /* implementstrStr.c in Sources */,
 				FB7B599420084977001DA9E4 /* longestSubstringWithoutRepeatingCharacters.c in Sources */,
 				FB7B5991200789BD001DA9E4 /* leetCodeCommon.c in Sources */,

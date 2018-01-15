@@ -19,6 +19,7 @@
 #include "longestSubstringWithoutRepeatingCharacters.h"
 #include "removeDuplicatesfromSortedArray.h"
 #include "implementstrStr.h"
+#include "countAndSay.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -92,6 +93,17 @@ int main(int argc, const char * argv[]) {
     printf("%d\n",strStr("aaabbaa", "bba"));
     printf("%d\n",strStr("", ""));
     printf("%d\n",strStr(NULL, ""));
+    
+    //  Count and Say
+    printf("======Count and Say====\n");
+    printf("%s\n", countAndSay(1));
+    printf("%s\n", countAndSay(2));
+    printf("%s\n", countAndSay(3));
+    printf("%s\n", countAndSay(4));
+    printf("%s\n", countAndSay(5));
+    printf("%s\n", countAndSay(6));
+    printf("%s\n", countAndSay(7));
+    
     
     return 0;
 }

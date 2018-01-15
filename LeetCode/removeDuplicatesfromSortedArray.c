@@ -7,6 +7,7 @@
 //
 
 #include "removeDuplicatesfromSortedArray.h"
+#include <stdlib.h>
 
 /**
  Remove Duplicates from Sorted Array
