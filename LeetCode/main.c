@@ -20,6 +20,8 @@
 #include "removeDuplicatesfromSortedArray.h"
 #include "implementstrStr.h"
 #include "countAndSay.h"
+#include "searchInsertPosition.h"
+#include "maximumSubarray.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -104,6 +106,29 @@ int main(int argc, const char * argv[]) {
     printf("%s\n", countAndSay(6));
     printf("%s\n", countAndSay(7));
     
+    
+    //   Search Insert Position
+    printf("====== Search Insert Position====\n");
+    int searchInsert_number1Array[4] = {1, 3, 5, 6};
+    printf("%d\n", searchInsert(searchInsert_number1Array, 4, 5));
+    int searchInsert_number2Array[4] = {1, 3, 5, 6};
+    printf("%d\n", searchInsert(searchInsert_number2Array, 4, 2));
+    int searchInsert_number3Array[4] = {1, 3, 5, 6};
+    printf("%d\n", searchInsert(searchInsert_number3Array, 4, 7));
+    int searchInsert_number4Array[4] = {1, 3, 5, 6};
+    printf("%d\n", searchInsert(searchInsert_number4Array, 4, 0));
+    
+    //  Maximum Subarray
+    printf("====== Maximum Subarray====\n");
+    int maxSubArray_numberArray[9] = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+    int maxSubArray_number1Array[2] = {-2, 1};
+    int maxSubArray_number2Array[1] = {-1};
+    printf("%d\n", maxSubArray(maxSubArray_numberArray, 9));
+    printf("%d\n", maxSubArray2(maxSubArray_numberArray, 9));
+    printf("%d\n", maxSubArray(maxSubArray_number1Array, 2));
+    printf("%d\n", maxSubArray2(maxSubArray_number1Array, 2));
+    printf("%d\n", maxSubArray(maxSubArray_number2Array, 1));
+    printf("%d\n", maxSubArray2(maxSubArray_number2Array, 1));
     
     return 0;
 }

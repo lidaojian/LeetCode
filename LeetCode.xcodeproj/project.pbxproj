@@ -13,6 +13,7 @@
 		FB7B599420084977001DA9E4 /* longestSubstringWithoutRepeatingCharacters.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B599320084977001DA9E4 /* longestSubstringWithoutRepeatingCharacters.c */; };
 		FB8268AF1FFBC5E300DB80CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FB8268AE1FFBC5E300DB80CC /* main.c */; };
 		FB83F7E4200C587E0057FF90 /* countAndSay.c in Sources */ = {isa = PBXBuildFile; fileRef = FB83F7E3200C587E0057FF90 /* countAndSay.c */; };
+		FB83F7E7200CC1C10057FF90 /* searchInsertPosition.c in Sources */ = {isa = PBXBuildFile; fileRef = FB83F7E6200CC1C00057FF90 /* searchInsertPosition.c */; };
 		FBB9C098200BB6810087C314 /* removeDuplicatesfromSortedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = FBB9C097200BB6810087C314 /* removeDuplicatesfromSortedArray.c */; };
 		FBB9C09B200BBC110087C314 /* implementstrStr.c in Sources */ = {isa = PBXBuildFile; fileRef = FBB9C09A200BBC110087C314 /* implementstrStr.c */; };
 		FBF5EA8820067CCB008FDE2D /* twoSum.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA8720067CCB008FDE2D /* twoSum.c */; };
@@ -21,6 +22,7 @@
 		FBF5EA9120072771008FDE2D /* integerToRoman.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA9020072771008FDE2D /* integerToRoman.c */; };
 		FBF5EA9420072852008FDE2D /* romanToInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA9320072852008FDE2D /* romanToInteger.c */; };
 		FBF5EA97200729DA008FDE2D /* longestCommonPrefix.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA96200729DA008FDE2D /* longestCommonPrefix.c */; };
+		FBFEFE92200CFF9700F500C7 /* maximumSubarray.c in Sources */ = {isa = PBXBuildFile; fileRef = FBFEFE91200CFF9700F500C7 /* maximumSubarray.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +50,8 @@
 		FB8268AE1FFBC5E300DB80CC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		FB83F7E2200C587E0057FF90 /* countAndSay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = countAndSay.h; sourceTree = "<group>"; };
 		FB83F7E3200C587E0057FF90 /* countAndSay.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = countAndSay.c; sourceTree = "<group>"; };
+		FB83F7E5200CC1C00057FF90 /* searchInsertPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searchInsertPosition.h; sourceTree = "<group>"; };
+		FB83F7E6200CC1C00057FF90 /* searchInsertPosition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = searchInsertPosition.c; sourceTree = "<group>"; };
 		FBB9C096200BB6810087C314 /* removeDuplicatesfromSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = removeDuplicatesfromSortedArray.h; sourceTree = "<group>"; };
 		FBB9C097200BB6810087C314 /* removeDuplicatesfromSortedArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = removeDuplicatesfromSortedArray.c; sourceTree = "<group>"; };
 		FBB9C099200BBC110087C314 /* implementstrStr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = implementstrStr.h; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 		FBF5EA9320072852008FDE2D /* romanToInteger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = romanToInteger.c; sourceTree = "<group>"; };
 		FBF5EA95200729DA008FDE2D /* longestCommonPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = longestCommonPrefix.h; sourceTree = "<group>"; };
 		FBF5EA96200729DA008FDE2D /* longestCommonPrefix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = longestCommonPrefix.c; sourceTree = "<group>"; };
+		FBFEFE90200CFF9700F500C7 /* maximumSubarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maximumSubarray.h; sourceTree = "<group>"; };
+		FBFEFE91200CFF9700F500C7 /* maximumSubarray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maximumSubarray.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 				FBB9C09A200BBC110087C314 /* implementstrStr.c */,
 				FB83F7E2200C587E0057FF90 /* countAndSay.h */,
 				FB83F7E3200C587E0057FF90 /* countAndSay.c */,
+				FB83F7E5200CC1C00057FF90 /* searchInsertPosition.h */,
+				FB83F7E6200CC1C00057FF90 /* searchInsertPosition.c */,
+				FBFEFE90200CFF9700F500C7 /* maximumSubarray.h */,
+				FBFEFE91200CFF9700F500C7 /* maximumSubarray.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -193,10 +203,12 @@
 				FBB9C09B200BBC110087C314 /* implementstrStr.c in Sources */,
 				FB7B599420084977001DA9E4 /* longestSubstringWithoutRepeatingCharacters.c in Sources */,
 				FB7B5991200789BD001DA9E4 /* leetCodeCommon.c in Sources */,
+				FBFEFE92200CFF9700F500C7 /* maximumSubarray.c in Sources */,
 				FBF5EA8E2007271D008FDE2D /* reverseInteger.c in Sources */,
 				FB7B598B2007820C001DA9E4 /* validParentheses.c in Sources */,
 				FBF5EA9120072771008FDE2D /* integerToRoman.c in Sources */,
 				FBB9C098200BB6810087C314 /* removeDuplicatesfromSortedArray.c in Sources */,
+				FB83F7E7200CC1C10057FF90 /* searchInsertPosition.c in Sources */,
 				FBF5EA9420072852008FDE2D /* romanToInteger.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
