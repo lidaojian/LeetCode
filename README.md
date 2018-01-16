@@ -1,6 +1,6 @@
 # LeetCode The problem solving report (C Program)
-## LeetCode 解题报告 C语言实现方式
-## 已经完成的题目列表
+### LeetCode 解题报告 C语言实现方式
+### 已经完成的题目列表 工程中有解题报告并且标注了运行时间。
 
 | 题目标号        | 题目           |
 | -------------  |:-------------:|
@@ -17,3 +17,5 @@
 | 28             | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)     |
 | 35             | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)     |
 | 38             | [Count and Say](https://leetcode.com/problems/count-and-say/description/)     |
+| 66             | [Plus One](https://leetcode.com/problems/plus-one/description/)     |
+

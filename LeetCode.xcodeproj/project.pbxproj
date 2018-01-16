@@ -23,6 +23,7 @@
 		FBF5EA9420072852008FDE2D /* romanToInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA9320072852008FDE2D /* romanToInteger.c */; };
 		FBF5EA97200729DA008FDE2D /* longestCommonPrefix.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA96200729DA008FDE2D /* longestCommonPrefix.c */; };
 		FBFEFE92200CFF9700F500C7 /* maximumSubarray.c in Sources */ = {isa = PBXBuildFile; fileRef = FBFEFE91200CFF9700F500C7 /* maximumSubarray.c */; };
+		FBFEFE95200D0D7C00F500C7 /* plusOne.c in Sources */ = {isa = PBXBuildFile; fileRef = FBFEFE94200D0D7C00F500C7 /* plusOne.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,8 @@
 		FBF5EA96200729DA008FDE2D /* longestCommonPrefix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = longestCommonPrefix.c; sourceTree = "<group>"; };
 		FBFEFE90200CFF9700F500C7 /* maximumSubarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maximumSubarray.h; sourceTree = "<group>"; };
 		FBFEFE91200CFF9700F500C7 /* maximumSubarray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maximumSubarray.c; sourceTree = "<group>"; };
+		FBFEFE93200D0D7C00F500C7 /* plusOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = plusOne.h; sourceTree = "<group>"; };
+		FBFEFE94200D0D7C00F500C7 /* plusOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = plusOne.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				FB83F7E6200CC1C00057FF90 /* searchInsertPosition.c */,
 				FBFEFE90200CFF9700F500C7 /* maximumSubarray.h */,
 				FBFEFE91200CFF9700F500C7 /* maximumSubarray.c */,
+				FBFEFE93200D0D7C00F500C7 /* plusOne.h */,
+				FBFEFE94200D0D7C00F500C7 /* plusOne.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				FBB9C098200BB6810087C314 /* removeDuplicatesfromSortedArray.c in Sources */,
 				FB83F7E7200CC1C10057FF90 /* searchInsertPosition.c in Sources */,
 				FBF5EA9420072852008FDE2D /* romanToInteger.c in Sources */,
+				FBFEFE95200D0D7C00F500C7 /* plusOne.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

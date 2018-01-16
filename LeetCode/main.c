@@ -22,6 +22,7 @@
 #include "countAndSay.h"
 #include "searchInsertPosition.h"
 #include "maximumSubarray.h"
+#include "plusOne.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -129,6 +130,17 @@ int main(int argc, const char * argv[]) {
     printf("%d\n", maxSubArray2(maxSubArray_number1Array, 2));
     printf("%d\n", maxSubArray(maxSubArray_number2Array, 1));
     printf("%d\n", maxSubArray2(maxSubArray_number2Array, 1));
+    
+    //  Plus One
+    printf("====== Plus One ====\n");
+    int plusOne_numberArray[3] = {9, 9, 9};
+    int plusOne_returnSize;
+    int *plusOne_res = plusOne(plusOne_numberArray, 3, &plusOne_returnSize);
+    for (int i = 0; i < plusOne_returnSize; i ++) {
+         printf("%d ", plusOne_res[i]);
+    }
+    printf("\n");
+   
     
     return 0;
 }
