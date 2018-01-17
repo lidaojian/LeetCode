@@ -34,3 +34,26 @@ void printList(struct ListNode *p) {
     }
     printf("\n");
 }
+
+struct TreeNode *createBinaryTree() {
+    struct TreeNode *binaryTree;
+    char ch;
+    scanf("%c",&ch);
+    if (ch == '#') {
+        binaryTree = NULL;
+    } else{
+        binaryTree = (struct TreeNode *)malloc(sizeof(struct TreeNode));
+        binaryTree->val = ch - '0';
+        binaryTree->left = createBinaryTree();
+        binaryTree->right = createBinaryTree();
+    }
+    return binaryTree;
+}
+
+void preOrderBinaryTree(struct TreeNode *T) {
+    if(T) {
+        printf("%d ",T->val);
+        preOrderBinaryTree(T->left);
+        preOrderBinaryTree(T->right);
+    }
+}
