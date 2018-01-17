@@ -25,6 +25,7 @@
 		FBFEFE92200CFF9700F500C7 /* maximumSubarray.c in Sources */ = {isa = PBXBuildFile; fileRef = FBFEFE91200CFF9700F500C7 /* maximumSubarray.c */; };
 		FBFEFE95200D0D7C00F500C7 /* plusOne.c in Sources */ = {isa = PBXBuildFile; fileRef = FBFEFE94200D0D7C00F500C7 /* plusOne.c */; };
 		FBFEFEA4200E5E9B00F500C7 /* sqrtx.c in Sources */ = {isa = PBXBuildFile; fileRef = FBFEFEA3200E5E9B00F500C7 /* sqrtx.c */; };
+		FBFEFEA7200F0B5B00F500C7 /* sameTree.c in Sources */ = {isa = PBXBuildFile; fileRef = FBFEFEA6200F0B5B00F500C7 /* sameTree.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +77,8 @@
 		FBFEFE94200D0D7C00F500C7 /* plusOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = plusOne.c; sourceTree = "<group>"; };
 		FBFEFEA2200E5E9B00F500C7 /* sqrtx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sqrtx.h; sourceTree = "<group>"; };
 		FBFEFEA3200E5E9B00F500C7 /* sqrtx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sqrtx.c; sourceTree = "<group>"; };
+		FBFEFEA5200F0B5B00F500C7 /* sameTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sameTree.h; sourceTree = "<group>"; };
+		FBFEFEA6200F0B5B00F500C7 /* sameTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sameTree.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 				FBFEFE94200D0D7C00F500C7 /* plusOne.c */,
 				FBFEFEA2200E5E9B00F500C7 /* sqrtx.h */,
 				FBFEFEA3200E5E9B00F500C7 /* sqrtx.c */,
+				FBFEFEA5200F0B5B00F500C7 /* sameTree.h */,
+				FBFEFEA6200F0B5B00F500C7 /* sameTree.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 				FBB9C098200BB6810087C314 /* removeDuplicatesfromSortedArray.c in Sources */,
 				FB83F7E7200CC1C10057FF90 /* searchInsertPosition.c in Sources */,
 				FBF5EA9420072852008FDE2D /* romanToInteger.c in Sources */,
+				FBFEFEA7200F0B5B00F500C7 /* sameTree.c in Sources */,
 				FBFEFE95200D0D7C00F500C7 /* plusOne.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

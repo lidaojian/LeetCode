@@ -12,8 +12,6 @@
 #include <stdio.h>
 #include "leetCodeCommon.h"
 
-struct ListNode *tailCreatList(int a[], int n);
-void printList(struct ListNode *p);
 struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2);
 
 #endif /* addTwoNumbers_h */
