@@ -24,6 +24,7 @@
 		FBF5EA97200729DA008FDE2D /* longestCommonPrefix.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF5EA96200729DA008FDE2D /* longestCommonPrefix.c */; };
 		FBFEFE92200CFF9700F500C7 /* maximumSubarray.c in Sources */ = {isa = PBXBuildFile; fileRef = FBFEFE91200CFF9700F500C7 /* maximumSubarray.c */; };
 		FBFEFE95200D0D7C00F500C7 /* plusOne.c in Sources */ = {isa = PBXBuildFile; fileRef = FBFEFE94200D0D7C00F500C7 /* plusOne.c */; };
+		FBFEFEA4200E5E9B00F500C7 /* sqrtx.c in Sources */ = {isa = PBXBuildFile; fileRef = FBFEFEA3200E5E9B00F500C7 /* sqrtx.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +74,8 @@
 		FBFEFE91200CFF9700F500C7 /* maximumSubarray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maximumSubarray.c; sourceTree = "<group>"; };
 		FBFEFE93200D0D7C00F500C7 /* plusOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = plusOne.h; sourceTree = "<group>"; };
 		FBFEFE94200D0D7C00F500C7 /* plusOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = plusOne.c; sourceTree = "<group>"; };
+		FBFEFEA2200E5E9B00F500C7 /* sqrtx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sqrtx.h; sourceTree = "<group>"; };
+		FBFEFEA3200E5E9B00F500C7 /* sqrtx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sqrtx.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				FBFEFE91200CFF9700F500C7 /* maximumSubarray.c */,
 				FBFEFE93200D0D7C00F500C7 /* plusOne.h */,
 				FBFEFE94200D0D7C00F500C7 /* plusOne.c */,
+				FBFEFEA2200E5E9B00F500C7 /* sqrtx.h */,
+				FBFEFEA3200E5E9B00F500C7 /* sqrtx.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 				FB8268AF1FFBC5E300DB80CC /* main.c in Sources */,
 				FBF5EA97200729DA008FDE2D /* longestCommonPrefix.c in Sources */,
 				FB83F7E4200C587E0057FF90 /* countAndSay.c in Sources */,
+				FBFEFEA4200E5E9B00F500C7 /* sqrtx.c in Sources */,
 				FBB9C09B200BBC110087C314 /* implementstrStr.c in Sources */,
 				FB7B599420084977001DA9E4 /* longestSubstringWithoutRepeatingCharacters.c in Sources */,
 				FB7B5991200789BD001DA9E4 /* leetCodeCommon.c in Sources */,

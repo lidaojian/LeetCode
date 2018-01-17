@@ -18,4 +18,5 @@
 | 35             | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)     |
 | 38             | [Count and Say](https://leetcode.com/problems/count-and-say/description/)     |
 | 66             | [Plus One](https://leetcode.com/problems/plus-one/description/)     |
+| 69             | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)     |
 

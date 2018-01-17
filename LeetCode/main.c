@@ -23,6 +23,7 @@
 #include "searchInsertPosition.h"
 #include "maximumSubarray.h"
 #include "plusOne.h"
+#include "sqrtx.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -140,6 +141,33 @@ int main(int argc, const char * argv[]) {
          printf("%d ", plusOne_res[i]);
     }
     printf("\n");
+    
+    // Sqrt(x)
+    printf("====== Sqrt(x) ====\n");
+    printf("%d\n", mySqrt(4));
+    printf("%d\n", mySqrt(8));
+    printf("%d\n", mySqrt(9));
+    printf("%d\n", mySqrt(5));
+    printf("%d\n", mySqrt(0));
+    printf("%d\n", mySqrt(1));
+    printf("%d\n", mySqrt(2147483647));
+    
+    printf("%d\n", mySqrt_method2(4));
+    printf("%d\n", mySqrt_method2(8));
+    printf("%d\n", mySqrt_method2(9));
+    printf("%d\n", mySqrt_method2(5));
+    printf("%d\n", mySqrt_method2(0));
+    printf("%d\n", mySqrt_method2(1));
+    printf("%d\n", mySqrt_method2(2147483647));
+    
+    printf("%d\n", mySqrt_method3(4));
+    printf("%d\n", mySqrt_method3(8));
+    printf("%d\n", mySqrt_method3(9));
+    printf("%d\n", mySqrt_method3(5));
+    printf("%d\n", mySqrt_method3(0));
+    printf("%d\n", mySqrt_method3(1));
+    printf("%d\n", mySqrt_method3(2147483647));
+    
    
     
     return 0;
