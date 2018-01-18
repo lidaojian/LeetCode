@@ -25,6 +25,7 @@
 #include "plusOne.h"
 #include "sqrtx.h"
 #include "sameTree.h"
+#include "maximumDepthOfBinaryTree.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -169,6 +170,27 @@ int main(int argc, const char * argv[]) {
     printf("%d\n", mySqrt_method3(1));
     printf("%d\n", mySqrt_method3(2147483647));
     
+//    //  Same Tree
+//    printf("======  Same Tree ====\n");
+//    struct TreeNode *isSameTree_T = createBinaryTree();
+//    preOrderTraversalBinaryTree(isSameTree_T);
+//    printf("\n");
+//    inOrderTraversalBinaryTree(isSameTree_T);
+//    printf("\n");
+//    postOrderTraversalBinaryTree(isSameTree_T);
+//    printf("\n");
+//
+//
+//    struct TreeNode *isSameTree_T1 = createBinaryTree();
+//    preOrderTraversalBinaryTree(isSameTree_T1);
+//    printf("\n");
+//
+//    printf("%d\n", isSameTree(isSameTree_T, isSameTree_T1));
+    
+    //   Maximum Depth of Binary Tree
+    printf("======   Maximum Depth of Binary Tree ====\n");
+    struct TreeNode *maxDepth_T = createBinaryTree();
+    printf("%d\n", maxDepth(maxDepth_T));
     
     
     return 0;

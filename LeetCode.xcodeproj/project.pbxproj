@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4015432010EF79008996AD /* maximumDepthOfBinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = FB4015422010EF79008996AD /* maximumDepthOfBinaryTree.c */; };
 		FB7B598B2007820C001DA9E4 /* validParentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B598A2007820C001DA9E4 /* validParentheses.c */; };
 		FB7B598E200788E6001DA9E4 /* mergeTwoSortedLists.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B598D200788E6001DA9E4 /* mergeTwoSortedLists.c */; };
 		FB7B5991200789BD001DA9E4 /* leetCodeCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B5990200789BD001DA9E4 /* leetCodeCommon.c */; };
@@ -41,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB4015412010EF79008996AD /* maximumDepthOfBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maximumDepthOfBinaryTree.h; sourceTree = "<group>"; };
+		FB4015422010EF79008996AD /* maximumDepthOfBinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maximumDepthOfBinaryTree.c; sourceTree = "<group>"; };
 		FB7B59892007820C001DA9E4 /* validParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = validParentheses.h; sourceTree = "<group>"; };
 		FB7B598A2007820C001DA9E4 /* validParentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = validParentheses.c; sourceTree = "<group>"; };
 		FB7B598C200788E6001DA9E4 /* mergeTwoSortedLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeTwoSortedLists.h; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				FBFEFEA3200E5E9B00F500C7 /* sqrtx.c */,
 				FBFEFEA5200F0B5B00F500C7 /* sameTree.h */,
 				FBFEFEA6200F0B5B00F500C7 /* sameTree.c */,
+				FB4015412010EF79008996AD /* maximumDepthOfBinaryTree.h */,
+				FB4015422010EF79008996AD /* maximumDepthOfBinaryTree.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 				FB7B5991200789BD001DA9E4 /* leetCodeCommon.c in Sources */,
 				FBFEFE92200CFF9700F500C7 /* maximumSubarray.c in Sources */,
 				FBF5EA8E2007271D008FDE2D /* reverseInteger.c in Sources */,
+				FB4015432010EF79008996AD /* maximumDepthOfBinaryTree.c in Sources */,
 				FB7B598B2007820C001DA9E4 /* validParentheses.c in Sources */,
 				FBF5EA9120072771008FDE2D /* integerToRoman.c in Sources */,
 				FBB9C098200BB6810087C314 /* removeDuplicatesfromSortedArray.c in Sources */,

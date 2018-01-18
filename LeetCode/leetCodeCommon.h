@@ -31,6 +31,12 @@ void printList(struct ListNode *p);
 struct TreeNode *createBinaryTree(void);
 
 // 前序遍历二叉树
-void preOrderBinaryTree(struct TreeNode *T);
+void preOrderTraversalBinaryTree(struct TreeNode *T);
+
+// 中序遍历二叉树
+void inOrderTraversalBinaryTree(struct TreeNode *T);
+
+// 后序遍历二叉树
+void postOrderTraversalBinaryTree(struct TreeNode *T);
 
 #endif /* leetCodeCommon_h */

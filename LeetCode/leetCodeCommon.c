@@ -39,7 +39,7 @@ struct TreeNode *createBinaryTree() {
     struct TreeNode *binaryTree;
     char ch;
     scanf("%c",&ch);
-    if (ch == '#') {
+    if (ch == '#' || ch == '\n') {
         binaryTree = NULL;
     } else{
         binaryTree = (struct TreeNode *)malloc(sizeof(struct TreeNode));
@@ -50,10 +50,26 @@ struct TreeNode *createBinaryTree() {
     return binaryTree;
 }
 
-void preOrderBinaryTree(struct TreeNode *T) {
+void preOrderTraversalBinaryTree(struct TreeNode *T) {
     if(T) {
         printf("%d ",T->val);
-        preOrderBinaryTree(T->left);
-        preOrderBinaryTree(T->right);
+        preOrderTraversalBinaryTree(T->left);
+        preOrderTraversalBinaryTree(T->right);
+    }
+}
+
+void inOrderTraversalBinaryTree(struct TreeNode *T) {
+    if (T) {
+        inOrderTraversalBinaryTree(T->left);
+        printf("%d ",T->val);
+        inOrderTraversalBinaryTree(T->right);
+    }
+}
+
+void postOrderTraversalBinaryTree(struct TreeNode *T) {
+    if (T) {
+        postOrderTraversalBinaryTree(T->left);
+        postOrderTraversalBinaryTree(T->right);
+        printf("%d ",T->val);
     }
 }
