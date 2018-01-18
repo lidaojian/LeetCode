@@ -21,4 +21,6 @@
 | 69             | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)     |
 | 100            | [Same Tree](https://leetcode.com/problems/same-tree/description/)     |
 | 104            | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)     |
+| 112            | [ Path Sum](https://leetcode.com/problems/path-sum/description/)     |
+| 226            | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)     |
 

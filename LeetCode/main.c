@@ -26,6 +26,8 @@
 #include "sqrtx.h"
 #include "sameTree.h"
 #include "maximumDepthOfBinaryTree.h"
+#include "invertBinaryTree.h"
+#include "pathSum.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -188,10 +190,23 @@ int main(int argc, const char * argv[]) {
 //    printf("%d\n", isSameTree(isSameTree_T, isSameTree_T1));
     
     //   Maximum Depth of Binary Tree
-    printf("======   Maximum Depth of Binary Tree ====\n");
-    struct TreeNode *maxDepth_T = createBinaryTree();
-    printf("%d\n", maxDepth(maxDepth_T));
+//    printf("======   Maximum Depth of Binary Tree ====\n");
+//    struct TreeNode *maxDepth_T = createBinaryTree();
+//    printf("%d\n", maxDepth(maxDepth_T));
     
+    
+    //    Invert a binary tree.
+//    printf("======   Invert a binary tree. ====\n");
+//    printf("input 421##3##76##9#换行\n");
+//    struct TreeNode *invertBinaryTree_T = createBinaryTree();
+//    preOrderTraversalBinaryTree(invertTree(invertBinaryTree_T));
+//    printf("\n");
+    
+    // Path Sum
+//    printf("======   Path Sum ====\n");
+//    printf("input 421##3##76##9#换行\n");
+//    struct TreeNode *pathSumBinaryTree_T = createBinaryTree();
+//    printf("%d\n", hasPathSum(pathSumBinaryTree_T, 24));
     
     return 0;
 }

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FB4015432010EF79008996AD /* maximumDepthOfBinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = FB4015422010EF79008996AD /* maximumDepthOfBinaryTree.c */; };
+		FB4015462010F4E8008996AD /* invertBinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = FB4015452010F4E8008996AD /* invertBinaryTree.c */; };
+		FB4015492010FBEF008996AD /* pathSum.c in Sources */ = {isa = PBXBuildFile; fileRef = FB4015482010FBEF008996AD /* pathSum.c */; };
 		FB7B598B2007820C001DA9E4 /* validParentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B598A2007820C001DA9E4 /* validParentheses.c */; };
 		FB7B598E200788E6001DA9E4 /* mergeTwoSortedLists.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B598D200788E6001DA9E4 /* mergeTwoSortedLists.c */; };
 		FB7B5991200789BD001DA9E4 /* leetCodeCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B5990200789BD001DA9E4 /* leetCodeCommon.c */; };
@@ -44,6 +46,10 @@
 /* Begin PBXFileReference section */
 		FB4015412010EF79008996AD /* maximumDepthOfBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maximumDepthOfBinaryTree.h; sourceTree = "<group>"; };
 		FB4015422010EF79008996AD /* maximumDepthOfBinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maximumDepthOfBinaryTree.c; sourceTree = "<group>"; };
+		FB4015442010F4E8008996AD /* invertBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = invertBinaryTree.h; sourceTree = "<group>"; };
+		FB4015452010F4E8008996AD /* invertBinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = invertBinaryTree.c; sourceTree = "<group>"; };
+		FB4015472010FBEF008996AD /* pathSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pathSum.h; sourceTree = "<group>"; };
+		FB4015482010FBEF008996AD /* pathSum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pathSum.c; sourceTree = "<group>"; };
 		FB7B59892007820C001DA9E4 /* validParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = validParentheses.h; sourceTree = "<group>"; };
 		FB7B598A2007820C001DA9E4 /* validParentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = validParentheses.c; sourceTree = "<group>"; };
 		FB7B598C200788E6001DA9E4 /* mergeTwoSortedLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeTwoSortedLists.h; sourceTree = "<group>"; };
@@ -153,6 +159,10 @@
 				FBFEFEA6200F0B5B00F500C7 /* sameTree.c */,
 				FB4015412010EF79008996AD /* maximumDepthOfBinaryTree.h */,
 				FB4015422010EF79008996AD /* maximumDepthOfBinaryTree.c */,
+				FB4015442010F4E8008996AD /* invertBinaryTree.h */,
+				FB4015452010F4E8008996AD /* invertBinaryTree.c */,
+				FB4015472010FBEF008996AD /* pathSum.h */,
+				FB4015482010FBEF008996AD /* pathSum.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -233,6 +243,8 @@
 				FB83F7E7200CC1C10057FF90 /* searchInsertPosition.c in Sources */,
 				FBF5EA9420072852008FDE2D /* romanToInteger.c in Sources */,
 				FBFEFEA7200F0B5B00F500C7 /* sameTree.c in Sources */,
+				FB4015462010F4E8008996AD /* invertBinaryTree.c in Sources */,
+				FB4015492010FBEF008996AD /* pathSum.c in Sources */,
 				FBFEFE95200D0D7C00F500C7 /* plusOne.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
