@@ -28,6 +28,8 @@
 #include "maximumDepthOfBinaryTree.h"
 #include "invertBinaryTree.h"
 #include "pathSum.h"
+#include "lowestCommonAncestorOfABinarySearchTree.h"
+#include "lowestCommonAncestorOfABinaryTree.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -171,6 +173,7 @@ int main(int argc, const char * argv[]) {
     printf("%d\n", mySqrt_method3(0));
     printf("%d\n", mySqrt_method3(1));
     printf("%d\n", mySqrt_method3(2147483647));
+
     
 //    //  Same Tree
 //    printf("======  Same Tree ====\n");
@@ -207,6 +210,18 @@ int main(int argc, const char * argv[]) {
 //    printf("input 421##3##76##9#换行\n");
 //    struct TreeNode *pathSumBinaryTree_T = createBinaryTree();
 //    printf("%d\n", hasPathSum(pathSumBinaryTree_T, 24));
+    
+    // 620##43##5##87##9#
+    struct TreeNode *sortBinaryRootTree_T = createBinaryTree();
+    preOrderTraversalBinaryTree(sortBinaryRootTree_T);
+    // 20##43##5#          20##43##5#
+    struct TreeNode *sortBinaryPTree_T = createBinaryTree();
+    preOrderTraversalBinaryTree(sortBinaryPTree_T);
+    // 43##5#             87##9#
+    struct TreeNode *sortBinaryQTree_T = createBinaryTree();
+    preOrderTraversalBinaryTree(sortBinaryQTree_T);
+    struct TreeNode *sortBinary_lowestCommonAncestor = lowestCommonAncestor2(sortBinaryRootTree_T, sortBinaryPTree_T, sortBinaryQTree_T);
+    preOrderTraversalBinaryTree(sortBinary_lowestCommonAncestor);
     
     return 0;
 }

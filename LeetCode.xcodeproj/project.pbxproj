@@ -10,6 +10,8 @@
 		FB4015432010EF79008996AD /* maximumDepthOfBinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = FB4015422010EF79008996AD /* maximumDepthOfBinaryTree.c */; };
 		FB4015462010F4E8008996AD /* invertBinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = FB4015452010F4E8008996AD /* invertBinaryTree.c */; };
 		FB4015492010FBEF008996AD /* pathSum.c in Sources */ = {isa = PBXBuildFile; fileRef = FB4015482010FBEF008996AD /* pathSum.c */; };
+		FB40157320123F41008996AD /* lowestCommonAncestorOfABinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = FB40157220123F41008996AD /* lowestCommonAncestorOfABinaryTree.c */; };
+		FB401576201243C6008996AD /* lowestCommonAncestorOfABinarySearchTree.c in Sources */ = {isa = PBXBuildFile; fileRef = FB401575201243C6008996AD /* lowestCommonAncestorOfABinarySearchTree.c */; };
 		FB7B598B2007820C001DA9E4 /* validParentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B598A2007820C001DA9E4 /* validParentheses.c */; };
 		FB7B598E200788E6001DA9E4 /* mergeTwoSortedLists.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B598D200788E6001DA9E4 /* mergeTwoSortedLists.c */; };
 		FB7B5991200789BD001DA9E4 /* leetCodeCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B5990200789BD001DA9E4 /* leetCodeCommon.c */; };
@@ -50,6 +52,10 @@
 		FB4015452010F4E8008996AD /* invertBinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = invertBinaryTree.c; sourceTree = "<group>"; };
 		FB4015472010FBEF008996AD /* pathSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pathSum.h; sourceTree = "<group>"; };
 		FB4015482010FBEF008996AD /* pathSum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pathSum.c; sourceTree = "<group>"; };
+		FB40157120123F41008996AD /* lowestCommonAncestorOfABinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lowestCommonAncestorOfABinaryTree.h; sourceTree = "<group>"; };
+		FB40157220123F41008996AD /* lowestCommonAncestorOfABinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lowestCommonAncestorOfABinaryTree.c; sourceTree = "<group>"; };
+		FB401574201243C6008996AD /* lowestCommonAncestorOfABinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lowestCommonAncestorOfABinarySearchTree.h; sourceTree = "<group>"; };
+		FB401575201243C6008996AD /* lowestCommonAncestorOfABinarySearchTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lowestCommonAncestorOfABinarySearchTree.c; sourceTree = "<group>"; };
 		FB7B59892007820C001DA9E4 /* validParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = validParentheses.h; sourceTree = "<group>"; };
 		FB7B598A2007820C001DA9E4 /* validParentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = validParentheses.c; sourceTree = "<group>"; };
 		FB7B598C200788E6001DA9E4 /* mergeTwoSortedLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeTwoSortedLists.h; sourceTree = "<group>"; };
@@ -163,6 +169,10 @@
 				FB4015452010F4E8008996AD /* invertBinaryTree.c */,
 				FB4015472010FBEF008996AD /* pathSum.h */,
 				FB4015482010FBEF008996AD /* pathSum.c */,
+				FB401574201243C6008996AD /* lowestCommonAncestorOfABinarySearchTree.h */,
+				FB401575201243C6008996AD /* lowestCommonAncestorOfABinarySearchTree.c */,
+				FB40157120123F41008996AD /* lowestCommonAncestorOfABinaryTree.h */,
+				FB40157220123F41008996AD /* lowestCommonAncestorOfABinaryTree.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -225,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBF5EA8B200725FA008FDE2D /* addTwoNumbers.c in Sources */,
+				FB401576201243C6008996AD /* lowestCommonAncestorOfABinarySearchTree.c in Sources */,
 				FBF5EA8820067CCB008FDE2D /* twoSum.c in Sources */,
 				FB7B598E200788E6001DA9E4 /* mergeTwoSortedLists.c in Sources */,
 				FB8268AF1FFBC5E300DB80CC /* main.c in Sources */,
@@ -246,6 +257,7 @@
 				FB4015462010F4E8008996AD /* invertBinaryTree.c in Sources */,
 				FB4015492010FBEF008996AD /* pathSum.c in Sources */,
 				FBFEFE95200D0D7C00F500C7 /* plusOne.c in Sources */,
+				FB40157320123F41008996AD /* lowestCommonAncestorOfABinaryTree.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

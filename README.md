@@ -23,4 +23,6 @@
 | 104            | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)     |
 | 112            | [ Path Sum](https://leetcode.com/problems/path-sum/description/)     |
 | 226            | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)     |
+| 235            | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)     |
+| 236            | [ILowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)     |
 

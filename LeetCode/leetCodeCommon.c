@@ -50,6 +50,7 @@ struct TreeNode *createBinaryTree() {
     return binaryTree;
 }
 
+// 前序遍历二叉树
 void preOrderTraversalBinaryTree(struct TreeNode *T) {
     if(T) {
         printf("%d ",T->val);
@@ -58,6 +59,7 @@ void preOrderTraversalBinaryTree(struct TreeNode *T) {
     }
 }
 
+// 中序遍历二叉树
 void inOrderTraversalBinaryTree(struct TreeNode *T) {
     if (T) {
         inOrderTraversalBinaryTree(T->left);
@@ -66,6 +68,7 @@ void inOrderTraversalBinaryTree(struct TreeNode *T) {
     }
 }
 
+// 后续遍历二叉树
 void postOrderTraversalBinaryTree(struct TreeNode *T) {
     if (T) {
         postOrderTraversalBinaryTree(T->left);
