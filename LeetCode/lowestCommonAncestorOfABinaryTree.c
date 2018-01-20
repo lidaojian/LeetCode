@@ -46,8 +46,10 @@ struct TreeNode* lowestCommonAncestor2(struct TreeNode* root, struct TreeNode* p
     if (root == NULL || p == root || q == root) {
         return root;
     }
+    printf("root->val = %d\n", root->val);
     struct TreeNode *left = lowestCommonAncestor2(root->left, p, q);
-    struct TreeNode *right =  lowestCommonAncestor2(root->right, p, q);
+    struct TreeNode *right = lowestCommonAncestor2(root->right, p, q);
+    printf("left = %p right = %p",root->left, root->right);
     if (left && right) {
         return root;
     }

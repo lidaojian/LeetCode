@@ -30,6 +30,7 @@
 #include "pathSum.h"
 #include "lowestCommonAncestorOfABinarySearchTree.h"
 #include "lowestCommonAncestorOfABinaryTree.h"
+#include "majorityElement.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -211,17 +212,37 @@ int main(int argc, const char * argv[]) {
 //    struct TreeNode *pathSumBinaryTree_T = createBinaryTree();
 //    printf("%d\n", hasPathSum(pathSumBinaryTree_T, 24));
     
+    // Lowest Common Ancestor of a Binary Search Tree
     // 620##43##5##87##9#
-    struct TreeNode *sortBinaryRootTree_T = createBinaryTree();
-    preOrderTraversalBinaryTree(sortBinaryRootTree_T);
-    // 20##43##5#          20##43##5#
-    struct TreeNode *sortBinaryPTree_T = createBinaryTree();
-    preOrderTraversalBinaryTree(sortBinaryPTree_T);
-    // 43##5#             87##9#
-    struct TreeNode *sortBinaryQTree_T = createBinaryTree();
-    preOrderTraversalBinaryTree(sortBinaryQTree_T);
-    struct TreeNode *sortBinary_lowestCommonAncestor = lowestCommonAncestor2(sortBinaryRootTree_T, sortBinaryPTree_T, sortBinaryQTree_T);
-    preOrderTraversalBinaryTree(sortBinary_lowestCommonAncestor);
+//    printf("======   Lowest Common Ancestor of a Binary Search Tree ====\n");
+//    struct TreeNode *sortBinaryRootTree_T = createBinaryTree();
+//    preOrderTraversalBinaryTree(sortBinaryRootTree_T);
+//    printf("\n");
+//    struct TreeNode *sortBinary_lowestCommonAncestor = lowestCommonAncestor(sortBinaryRootTree_T, sortBinaryRootTree_T->left, sortBinaryRootTree_T->right);
+//    preOrderTraversalBinaryTree(sortBinary_lowestCommonAncestor);
+    
+    // Lowest Common Ancestor of a Binary Tree
+    // 356##27##4##10##8#
+//    printf("======   Lowest Common Ancestor of a Binary Tree ====\n");
+//    struct TreeNode *binaryRootTree_T = createBinaryTree();
+//    preOrderTraversalBinaryTree(binaryRootTree_T);
+//    printf("\n");
+//    // 6 4     CommonAncestor   5
+//    struct TreeNode *sortBinary_lowestCommonAncestor = lowestCommonAncestor2(binaryRootTree_T, binaryRootTree_T->left->left, binaryRootTree_T->left->right->right);
+//    preOrderTraversalBinaryTree(sortBinary_lowestCommonAncestor);
+    
+    int majorityElement_array[3] = {3, 2, 3};
+    int majorityElement_res = majorityElement(majorityElement_array, 3);
+    printf("%d\n", majorityElement_res);
+    majorityElement_res = majorityElement2(majorityElement_array, 3);
+    printf("%d\n", majorityElement_res);
+    
+    int majorityElement_array2[5]  = {8, 9, 8, 9, 8};
+    int majorityElement_res2 = majorityElement(majorityElement_array2, 5);
+    printf("%d\n", majorityElement_res2);
+    majorityElement_res2 = majorityElement2(majorityElement_array2, 5);
+    printf("%d\n", majorityElement_res2);
+    
     
     return 0;
 }

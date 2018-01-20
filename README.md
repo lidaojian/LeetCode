@@ -21,7 +21,8 @@
 | 69             | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)     |
 | 100            | [Same Tree](https://leetcode.com/problems/same-tree/description/)     |
 | 104            | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)     |
-| 112            | [ Path Sum](https://leetcode.com/problems/path-sum/description/)     |
+| 112            | [Path Sum](https://leetcode.com/problems/path-sum/description/)     |
+| 169            | [Majority Element](https://leetcode.com/problems/majority-element/description/)     |
 | 226            | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)     |
 | 235            | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)     |
 | 236            | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)     |
