@@ -13,6 +13,7 @@
 		FB40157320123F41008996AD /* lowestCommonAncestorOfABinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = FB40157220123F41008996AD /* lowestCommonAncestorOfABinaryTree.c */; };
 		FB401576201243C6008996AD /* lowestCommonAncestorOfABinarySearchTree.c in Sources */ = {isa = PBXBuildFile; fileRef = FB401575201243C6008996AD /* lowestCommonAncestorOfABinarySearchTree.c */; };
 		FB4015792012C879008996AD /* majorityElement.c in Sources */ = {isa = PBXBuildFile; fileRef = FB4015782012C879008996AD /* majorityElement.c */; };
+		FB4015B820147FF1008996AD /* sumRootToLeafNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = FB4015B720147FF1008996AD /* sumRootToLeafNumbers.c */; };
 		FB7B598B2007820C001DA9E4 /* validParentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B598A2007820C001DA9E4 /* validParentheses.c */; };
 		FB7B598E200788E6001DA9E4 /* mergeTwoSortedLists.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B598D200788E6001DA9E4 /* mergeTwoSortedLists.c */; };
 		FB7B5991200789BD001DA9E4 /* leetCodeCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = FB7B5990200789BD001DA9E4 /* leetCodeCommon.c */; };
@@ -59,6 +60,8 @@
 		FB401575201243C6008996AD /* lowestCommonAncestorOfABinarySearchTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lowestCommonAncestorOfABinarySearchTree.c; sourceTree = "<group>"; };
 		FB4015772012C879008996AD /* majorityElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = majorityElement.h; sourceTree = "<group>"; };
 		FB4015782012C879008996AD /* majorityElement.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = majorityElement.c; sourceTree = "<group>"; };
+		FB4015B620147FF1008996AD /* sumRootToLeafNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sumRootToLeafNumbers.h; sourceTree = "<group>"; };
+		FB4015B720147FF1008996AD /* sumRootToLeafNumbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sumRootToLeafNumbers.c; sourceTree = "<group>"; };
 		FB7B59892007820C001DA9E4 /* validParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = validParentheses.h; sourceTree = "<group>"; };
 		FB7B598A2007820C001DA9E4 /* validParentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = validParentheses.c; sourceTree = "<group>"; };
 		FB7B598C200788E6001DA9E4 /* mergeTwoSortedLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeTwoSortedLists.h; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 				FB40157220123F41008996AD /* lowestCommonAncestorOfABinaryTree.c */,
 				FB4015772012C879008996AD /* majorityElement.h */,
 				FB4015782012C879008996AD /* majorityElement.c */,
+				FB4015B620147FF1008996AD /* sumRootToLeafNumbers.h */,
+				FB4015B720147FF1008996AD /* sumRootToLeafNumbers.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				FB7B598B2007820C001DA9E4 /* validParentheses.c in Sources */,
 				FBF5EA9120072771008FDE2D /* integerToRoman.c in Sources */,
 				FB4015792012C879008996AD /* majorityElement.c in Sources */,
+				FB4015B820147FF1008996AD /* sumRootToLeafNumbers.c in Sources */,
 				FBB9C098200BB6810087C314 /* removeDuplicatesfromSortedArray.c in Sources */,
 				FB83F7E7200CC1C10057FF90 /* searchInsertPosition.c in Sources */,
 				FBF5EA9420072852008FDE2D /* romanToInteger.c in Sources */,

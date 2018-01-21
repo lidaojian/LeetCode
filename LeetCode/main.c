@@ -31,6 +31,7 @@
 #include "lowestCommonAncestorOfABinarySearchTree.h"
 #include "lowestCommonAncestorOfABinaryTree.h"
 #include "majorityElement.h"
+#include "sumRootToLeafNumbers.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -231,6 +232,8 @@ int main(int argc, const char * argv[]) {
 //    struct TreeNode *sortBinary_lowestCommonAncestor = lowestCommonAncestor2(binaryRootTree_T, binaryRootTree_T->left->left, binaryRootTree_T->left->right->right);
 //    preOrderTraversalBinaryTree(sortBinary_lowestCommonAncestor);
     
+    //  Majority Element
+    printf("======  Majority Element ====\n");
     int majorityElement_array[3] = {3, 2, 3};
     int majorityElement_res = majorityElement(majorityElement_array, 3);
     printf("%d\n", majorityElement_res);
@@ -243,6 +246,10 @@ int main(int argc, const char * argv[]) {
     majorityElement_res2 = majorityElement2(majorityElement_array2, 5);
     printf("%d\n", majorityElement_res2);
     
+    //  Sum Root to Leaf Numbers
+    printf("======  Sum Root to Leaf Numbers ====\n");
+    struct TreeNode *sumRootLeafNumbers_T = createBinaryTree();
+    printf("sum: %d\n", sumNumbers(sumRootLeafNumbers_T));
     
     return 0;
 }
