@@ -58,6 +58,13 @@ struct TreeNode* lowestCommonAncestor2(struct TreeNode* root, struct TreeNode* p
     return left == NULL ? right : left;
 }
 
+
+/**
+ https://leetcode.com/submissions/detail/137334182/
+ 31 / 31 test cases passed.
+ Status: Accepted
+ Runtime: 14 ms
+ */
 #define stackMaxLength 100000
 int stackPTop, stackQTop, stackTop;
 struct TreeNode *stackP[stackMaxLength], *stackQ[stackMaxLength], *stack[stackMaxLength];
@@ -73,11 +80,11 @@ void preOrder(struct TreeNode *node, struct TreeNode *A, int flag) {
         findNode = true;
         if (flag == 0) {
             stackPTop = stackTop;
-            for (int i = 1; i <= stackTop; i++)
+            for (int i = 0; i <= stackTop; i++)
                 stackP[i] = stack[i];
         } else {
             stackQTop = stackTop;
-            for (int i = 1; i <= stackTop; i++)
+            for (int i = 0; i <= stackTop; i++)
                 stackQ[i] = stack[i];
         }
         return;
@@ -95,10 +102,10 @@ void preOrder(struct TreeNode *node, struct TreeNode *A, int flag) {
 
 struct TreeNode *lowestCommonAncestor3(struct TreeNode *root, struct TreeNode *p, struct TreeNode *q) {
     
-    stackTop = 0; findNode = false;
+    stackTop = -1; findNode = false;
     preOrder(root, p, 0);
     
-    stackTop = 0; findNode = false;
+    stackTop = -1; findNode = false;
     preOrder(root, q, 1);
     
     stackPTop = stackPTop > stackQTop ? stackQTop : stackPTop;
@@ -107,7 +114,11 @@ struct TreeNode *lowestCommonAncestor3(struct TreeNode *root, struct TreeNode *p
     while (stackP[stackPTop] != stackQ[stackQTop]) {
         stackPTop --;
         stackQTop --;
+        if (stackPTop == -1 || stackQTop == -1) {
+            return NULL;
+        }
     }
     return stackP[stackPTop];
 }
+
 
