@@ -14,4 +14,6 @@
 
 struct TreeNode* lowestCommonAncestor2(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q);
 
+struct TreeNode* lowestCommonAncestor3(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q);
+
 #endif /* lowestCommonAncestorOfABinaryTree_h */

@@ -7,6 +7,8 @@
 //
 
 #include "lowestCommonAncestorOfABinaryTree.h"
+#include <stdbool.h>
+#include <stdlib.h>
 
 /**
  Lowest Common Ancestor of a Binary Tree
@@ -46,12 +48,66 @@ struct TreeNode* lowestCommonAncestor2(struct TreeNode* root, struct TreeNode* p
     if (root == NULL || p == root || q == root) {
         return root;
     }
-    printf("root->val = %d\n", root->val);
+//    printf("root->val = %d\n", root->val);
     struct TreeNode *left = lowestCommonAncestor2(root->left, p, q);
     struct TreeNode *right = lowestCommonAncestor2(root->right, p, q);
-    printf("left = %p right = %p",root->left, root->right);
+//    printf("left = %p right = %p",root->left, root->right);
     if (left && right) {
         return root;
     }
     return left == NULL ? right : left;
 }
+
+#define stackMaxLength 100000
+int stackPTop, stackQTop, stackTop;
+struct TreeNode *stackP[stackMaxLength], *stackQ[stackMaxLength], *stack[stackMaxLength];
+bool findNode;
+
+void preOrder(struct TreeNode *node, struct TreeNode *A, int flag) {
+    if (findNode)
+        return;
+    if (node == NULL)
+        return;
+    stack[++ stackTop] = node;
+    if (A == node) {
+        findNode = true;
+        if (flag == 0) {
+            stackPTop = stackTop;
+            for (int i = 1; i <= stackTop; i++)
+                stackP[i] = stack[i];
+        } else {
+            stackQTop = stackTop;
+            for (int i = 1; i <= stackTop; i++)
+                stackQ[i] = stack[i];
+        }
+        return;
+    }
+    
+    preOrder(node->left, A, flag);
+    if (findNode) return;
+    
+    preOrder(node->right, A, flag);
+    if (findNode) return;
+    
+    stack[stackTop] = NULL;
+    stackTop --;
+}
+
+struct TreeNode *lowestCommonAncestor3(struct TreeNode *root, struct TreeNode *p, struct TreeNode *q) {
+    
+    stackTop = 0; findNode = false;
+    preOrder(root, p, 0);
+    
+    stackTop = 0; findNode = false;
+    preOrder(root, q, 1);
+    
+    stackPTop = stackPTop > stackQTop ? stackQTop : stackPTop;
+    stackQTop = stackPTop;
+    
+    while (stackP[stackPTop] != stackQ[stackQTop]) {
+        stackPTop --;
+        stackQTop --;
+    }
+    return stackP[stackPTop];
+}
+
