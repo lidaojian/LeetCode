@@ -80,12 +80,14 @@ void preOrder(struct TreeNode *node, struct TreeNode *A, int flag) {
         findNode = true;
         if (flag == 0) {
             stackPTop = stackTop;
-            for (int i = 0; i <= stackTop; i++)
+            for (int i = 0; i <= stackTop; i++) {
                 stackP[i] = stack[i];
+            }
         } else {
             stackQTop = stackTop;
-            for (int i = 0; i <= stackTop; i++)
+            for (int i = 0; i <= stackTop; i++) {
                 stackQ[i] = stack[i];
+            }
         }
         return;
     }
@@ -108,17 +110,15 @@ struct TreeNode *lowestCommonAncestor3(struct TreeNode *root, struct TreeNode *p
     stackTop = -1; findNode = false;
     preOrder(root, q, 1);
     
-    stackPTop = stackPTop > stackQTop ? stackQTop : stackPTop;
-    stackQTop = stackPTop;
+    stackTop = stackPTop > stackQTop ? stackQTop : stackPTop;
     
-    while (stackP[stackPTop] != stackQ[stackQTop]) {
-        stackPTop --;
-        stackQTop --;
-        if (stackPTop == -1 || stackQTop == -1) {
+    while (stackP[stackTop] != stackQ[stackTop]) {
+        stackTop --;
+        if (stackTop == -1) {
             return NULL;
         }
     }
-    return stackP[stackPTop];
+    return stackP[stackTop];
 }
 
 
