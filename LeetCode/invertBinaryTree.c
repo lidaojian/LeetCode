@@ -54,3 +54,36 @@ struct TreeNode* invertTree(struct TreeNode* root) {
     root->right = temp;
     return root;
 }
+
+
+/**
+ 68 / 68 test cases passed.
+ Status: Accepted
+ Runtime: 4 ms
+ https://leetcode.com/submissions/detail/138089599/
+ */
+#define stackMaxLength 100000
+struct TreeNode *invertTreeStack[stackMaxLength];
+int invertTreeStackTop = -1;
+void swapTreeNode(struct TreeNode *root) {
+    struct TreeNode *temp = root->left;
+    root->left = root->right;
+    root->right = temp;
+}
+struct TreeNode* invertTree2(struct TreeNode* root) {
+    if (!root) {
+        return NULL;
+    }
+    invertTreeStack[++invertTreeStackTop] = root;
+    while (invertTreeStackTop != -1) {
+        struct TreeNode *treeNode = invertTreeStack[invertTreeStackTop --];
+        swapTreeNode(treeNode);
+        if (treeNode->left) {
+            invertTreeStack[++invertTreeStackTop] = treeNode->left;
+        }
+        if (treeNode->right) {
+            invertTreeStack[++invertTreeStackTop] = treeNode->right;
+        }
+    }
+    return root;
+}

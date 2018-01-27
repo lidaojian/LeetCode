@@ -14,4 +14,6 @@
 
 struct TreeNode* invertTree(struct TreeNode* root);
 
+struct TreeNode* invertTree2(struct TreeNode* root);
+
 #endif /* invertBinaryTree_h */
